@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/nike.png" />
+    <title>Nike.com.br - Just Do It</title>
+  </head>
+  <body>
+    <div id="menuMobile">
+      <div class="menu-right-mobile">
+        <ul class="list-mobile">
+          <button id="button-login-mobile">Entrar</button>
+          <button id="close-menu"><img src="./img/close.png" onclick="closeMenu()"></button>
+          <li>
+            <a href="https://www.nike.com.br/hotsite/bnt-398"
+              >Seleção Brasileira
+              <img src="/img/bxs-chevron-right.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://bit.ly/3QHI4rK"
+              >Nike Para Elas <img src="/img/bxs-chevron-right.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.nike.com.br/nav?sorting=DescReleaseDate"
+              >Lançamentos <img src="/img/bxs-chevron-right.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.nike.com.br/sc/feminino-1"
+              >Feminino <img src="/img/bxs-chevron-right.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.nike.com.br/sc/masculino-1"
+              >Masculino <img src="/img/bxs-chevron-right.svg" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.nike.com.br/nav/idade/infantil"
+              >Infantil <img src="/img/bxs-chevron-right.svg" alt=""
+            /></a>
+          </li>
+          <li><a href="https://www.nike.com.br/snkrs">SNKRS <img src="/img/bxs-chevron-right.svg" alt=""/><a><li>
+        </ul>
+      </div>
+    </div>
+    <nav>
+        <div class="jordan-snkrs">
+          <a href="https://www.nike.com.br/nav/marca/jordan">
+            <img
+              src="./img/jordan.svg"
+              alt="logo-jordan"
+              title="Jordan"
+              id="logo-jordan"
+            />
+          </a>
+          <a href="https://www.nike.com.br/snkrs">
+            <img
+              src="./img/snkrs.svg"
+              alt="logo-snkrs"
+              title="SNKRS"
+              id="logo-snkrs"
+            />
+          </a>
+        </div>
+        <div class="nav-help-login">
+          <a href="https://atendimento.nike.com.br/hc/pt-br">Ajuda</a>
+          <hr />
+          <a href="https://www.nike.com.br/sc/membros-nike-cadastro"
+            >Junte-se a nós</a
+          >
+          <hr />
+          <a
+            href="https://unite.nike.com/oauth.html?client_id=QLegGiUU042XMAUWE4qWL3fPUIrpQTnq&scope=openid&response_type=code&redirect_uri=https%3A%2F%2Fwww.nike.com.br%2Fapi%2Fauth%2Fcallback%2Fnike-unite&locale=pt_BR&state=pshjFTMBYrTDMyOIC3QYY5gjQBhUZx2n9wgY9Rfzzlg"
+            >Entrar</a
+          >
+        </div>
+    </nav>
+    <header>
+      <div class="header-mobile">
+        <div class="mobile-top-content">
+          <a href="https://www.nike.com.br/">
+            <img src="./img/swoosh_black.png" alt="logo-nike" title="Nike" />
+          </a>
+          <div class="header-right-content">
+            <div class="bag" title="Sacola Vazia">
+              <button id="button-bag">
+                <img src="./img/shopping-bag-regular-24.png" alt="" />
+              </button>
+            </div>
+            <div class="bag" title="">
+              <button id="button-menu-mobile" onclick="showMenu()">
+                <img src="./img/bx-menu.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom-content">
+          <div class="input-search">
+            <button id="button-search">
+              <img src="./img/search-regular-24.png" alt="" />
+            </button>
+            <input type="text" placeholder="Buscar" id="search" />
+          </div>
+        </div>
+      </div>
+      <div class="nav-2">
+        <div class="logo-nike2">
+          <a href="https://www.nike.com.br/">
+            <img src="./img/logo.svg" alt="logo-nike" title="Nike" />
+          </a>
+        </div>
+        <div class="category">
+          <ul>
+            <a href="https://www.nike.com.br/hotsite/bnt-398" style="text-decoration: none; color: #000"
+              ><li id="selecao">Seleção Brasileira</li></a
+            >
+            <a href="https://www.nike.com.br/nav?sorting=DescReleaseDate" style="text-decoration: none; color: #000"
+              ><li>Lançamentos</li></a
+            >
+            <a href="https://www.nike.com.br/sc/feminino-1" style="text-decoration: none; color: #000"
+              ><li>Feminino</li></a
+            >
+            <a href="https://www.nike.com.br/sc/masculino-1" style="text-decoration: none; color: #000"
+              ><li>Masculino</li></a
+            >
+            <a href="https://www.nike.com.br/nav/idade/infantil" style="text-decoration: none; color: #000"
+              ><li>Infantil</li></a
+            >
+            <a href="https://www.nike.com.br/snkrs" style="text-decoration: none; color: #000"
+              ><li>SNKRS</li></a
+            >
+          </ul>
+        </div>
+        <div class="input-search">
+          <button id="button-search">
+            <img src="./img/search-regular-24.png" alt="" />
+          </button>
+          <input type="text" placeholder="Buscar" id="search" />
+        </div>
+        <div class="bag" title="Sacola Vazia">
+          <button id="button-bag">
+            <img src="./img/shopping-bag-regular-24.png" alt="" />
+          </button>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="carrossel">
+        <button id="button-carrossel-left">
+          <img src="./img/bxs-chevron-left.svg" alt="" />
+        </button>
+        <div class="part-carrossel">
+          <img src="./img/snkrs-logo.png" alt="" />
+          <p>
+            <strong>SNKRS </strong>Fique por dentro dos lançamentos em
+            <a href="https://www.nike.com.br/snkrs/calendario">SNKRS</a>
+          </p>
+        </div>
+        <button id="button-carrossel-right">
+          <img src="./img/bxs-chevron-right.svg" alt="" />
+        </button>
+      </div>
+    </section>
+    <main>
+      <div class="video-brazil">
+        <video
+          src="./img/bnt-home-desktop-1.mp4"
+          class="imgs-desk"
+          autoplay
+          muted
+          loop
+          width="570"
+        ></video>
+        <a href="https://bit.ly/3QqfIls">
+          <img
+            src="./img/tout-lancamento-selecao-desk-2.png"
+            class="imgs-desk"
+            alt=""
+          />
+        </a>
+        <a href="https://bit.ly/3QqfIls">
+          <img
+            src="./img/tout-selecao-brasileira-mobile-3.png"
+            class="imgs-mobile"
+            alt=""
+          />
+        </a>
+      </div>
+      <div class="look-for-they">
+        <span id="looks">Dias dos Membros Nike</span>
+        <a href="https://bit.ly/3pAT8LH">
+          <img src="./img/tout-membership-desk.png" class="imgs-desk" alt="" />
+        </a>
+        <a href="https://bit.ly/3pAT8LH">
+          <img
+            src="./img/tout-membership-mobile.png"
+            class="imgs-mobile"
+            alt=""
+          />
+        </a>
+      </div>
+      <div class="look-for-they">
+        <span id="looks">Looks Para Elas</span>
+        <a href="https://bit.ly/3QHI4rK">
+          <img src="./img/tout-lookbook-desk.png" class="imgs-desk" alt="" />
+        </a>
+        <a href="https://bit.ly/3QHI4rK">
+          <img
+            src="./img/tout-lookbook-mobile.png"
+            class="imgs-mobile"
+            alt=""
+          />
+        </a>
+      </div>
+      <div class="look-for-they">
+        <span id="looks">Treino</span>
+        <a href="https://www.nike.com.br/hotsite/dia-dos-pais-treino-396">
+          <img src="./img/tout-metcon8-desk.jpg" class="imgs-desk" alt="" />
+        </a>
+        <a href="https://www.nike.com.br/hotsite/dia-dos-pais-treino-396">
+          <img src="./img/tout-metcon8-mobile.jpg" class="imgs-mobile" alt="" />
+        </a>
+      </div>
+      <div class="look-for-they">
+        <span id="looks">Nike Membership</span>
+        <a href="https://bit.ly/3QBF14o">
+          <img
+            src="./img/tout-membership-atletas-desk.png"
+            class="imgs-desk"
+            alt=""
+          />
+        </a>
+        <a href="https://bit.ly/3pAT8LH">
+          <img
+            src="./img//tout-membership-atletas-mobile.png"
+            class="imgs-mobile"
+            alt=""
+          />
+        </a>
+      </div>
+      <div class="meet-too">
+        <span id="looks">Conheça Também</span>
+        <div class="images-3">
+          <a href="https://www.nike.com.br/nav/genero/feminino/categorias/tops">
+            <img src="./img/TOUT_A.png" alt="" />
+          </a>
+          <a href="https://www.nike.com.br/sc/sneakers">
+            <img src="./img/TOUT_B.png" alt="" />
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?1=pt_BR&phone=551127396464&text=Oi,%20vi%20a%20p%C3%A1gina%20de%20ofertas%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20produtos."
+          >
+            <img src="./img/TOUT_C.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-infos">
+          <div class="footer-1">
+            <a href="">Encontre Uma Loja Nike</a><br />
+            <a href="">Cadastre-se para receber novidades</a><br />
+            <a href="">Cartão Presente</a>
+          </div>
+          <div class="footer-2">
+            <p class="footer-title">Ajuda</p>
+            <div class="help-links">
+              <a href="">Dúvidas Gerais</a>
+              <a href="">Encontre seu Tamanho</a>
+              <a href="">Entregas</a>
+              <a href="">Pedidos</a>
+              <a href="">Trocas e Devoluções</a>
+              <a href="">Pagamentos</a>
+              <a href="">Produtos</a>
+              <a href="">Corporativo</a>
+              <a href="">Fale Conosco</a>
+            </div>
+          </div>
+          <div class="footer-3">
+            <p class="footer-title">Sobre a Nike</p>
+            <div class="help-links">
+              <a href="">Feito para Jogar</a>
+              <a href="">Sustentabilidade</a>
+            </div>
+          </div>
+          <div class="footer-4">
+            <p class="footer-title">Redes sociais</p>
+            <div class="help-links">
+              <div class="images-social-media">
+                <a href="https://www.facebook.com/nike"
+                  ><img
+                    class="social-medias"
+                    src="./img/bxl-facebook-circle.svg"
+                    alt=""
+                /></a>
+                <a href="https://www.instagram.com/nike/"
+                  ><img
+                    class="social-medias"
+                    src="./img/bxl-instagram-alt.svg"
+                    alt=""
+                /></a>
+                <a href="https://www.youtube.com/user/nike"
+                  ><img
+                    class="social-medias"
+                    src="./img/bxl-youtube.svg"
+                    alt=""
+                /></a>
+              </div>
+              <div class="payment-method">
+                <p class="footer-title" id="text-payments">
+                  Formas de pagamento
+                </p>
+                <div class="payments-container">
+                  <div class="payments-imgs">
+                    <img src="./img/mastercard.svg" alt="" />
+                  </div>
+                  <div class="payments-imgs">
+                    <img src="./img/visa.svg" alt="" />
+                  </div>
+                  <div class="payments-imgs">
+                    <img src="./img/amex.svg" alt="" />
+                  </div>
+                  <div class="payments-imgs">
+                    <img src="./img/elo.svg" alt="" />
+                  </div>
+                  <div class="payments-imgs">
+                    <img src="./img/hipercard.svg" alt="" />
+                  </div>
+                  <div class="payments-imgs">
+                    <img src="./img/discover.svg" alt="" />
+                  </div>
+                  <div class="payments-imgs">
+                    <img src="./img/boleto.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-down">
+          <div class="links-footer">
+            <a href="https://www.nike.com/?geoselection=true">Brasil </a>
+            <a href="https://www.nike.com.br/politica-privacidade"
+              >Política de Privacidade</a
+            >
+            <a href="https://www.nike.com.br/termos-de-uso">Termos de Uso</a>
+          </div>
+          <div class="footer-ltda">
+            © 2022 Nike. Todos os direitos reservados. Fisia Comércio de
+            Produtos Esportivos Ltda - CNPJ: 59.546.515/0045-55 Rodovia Fernão
+            Dias, S/N Km <br />
+            947.5 - Galpão Modulo 3640 - CEP 37640-903 - Extrema - MG
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
