@@ -8,8 +8,9 @@
 
 <p align="center">Projeto feito com HTML, CSS e JavaScript, 100% responsivo.</p>
 
+<div align="center">
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/101068627/188521446-41c7a27c-7aa7-47c0-8761-8d85a42b32dd.gif)
-
+</div>
 ---
 
 # See the repositories
